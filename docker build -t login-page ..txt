@@ -1,0 +1,4 @@
+docker build -t login-page .
+
+
+docker run -d --name login-container -p 8080:80 login-page
